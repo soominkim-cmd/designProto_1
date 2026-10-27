@@ -3,7 +3,7 @@
 
 :root {
   color-scheme: dark;
-  --ink: #050505;
+  --ink: #000000;
   --panel: #0a0a0a;
   --panel-raised: #0e0e0e;
   --white: #f4f4f0;
@@ -334,7 +334,7 @@ footer {
 
 .data-line {
   fill: none;
-  stroke: #686865;
+  stroke: #ffffff !important;
   stroke-width: 1.1;
   opacity: 0.45;
   cursor: pointer;
@@ -345,15 +345,15 @@ footer {
 .data-line:hover,
 .data-line.hovered {
   opacity: 0.9;
-  stroke: var(--white);
+  stroke: #ffffff !important;
   stroke-width: 1.8;
 }
 
 .data-line.selected {
   opacity: 1;
-  stroke: var(--accent);
+  stroke: #ffffff !important;
   stroke-width: 2.4;
-  filter: drop-shadow(0 0 5px rgba(200, 255, 50, 0.25));
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.2));
 }
 
 .selected-label {
@@ -370,7 +370,7 @@ footer {
 .label-line {
   width: 20px;
   height: 1px;
-  background: var(--accent);
+  background: #ffffff !important;
 }
 
 .selected-label div {
@@ -425,10 +425,10 @@ footer {
   width: 13px;
   height: 1px;
   margin-right: 7px;
-  background: currentColor;
+  background: #ffffff !important;
 }
 
-.region-legend button.active .legend-line { background: var(--accent); }
+.region-legend button.active .legend-line { background: #ffffff !important; }
 .region-legend small {
   color: var(--dim);
   margin-left: 6px;
@@ -503,11 +503,11 @@ footer {
   top: 4px;
   height: 10px;
   border-radius: 1px;
-  background: var(--accent);
+  background: #ffffff;
 }
 
 .comparison-bar.negative {
-  background: var(--red);
+  background: #ffffff;
 }
 
 .comparison-rate {
@@ -674,7 +674,7 @@ footer {
   stroke-width: 1.2;
 }
 .last-dot {
-  fill: var(--accent);
+  fill: #ffffff;
   stroke: var(--panel);
   stroke-width: 3;
 }
